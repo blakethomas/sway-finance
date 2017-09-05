@@ -20,7 +20,6 @@ body {
 }
 
 .links {
-  color: white;
   float: right;
   clear: left;
   margin-top: 4%;
@@ -28,17 +27,18 @@ body {
   font-size: 80%;
   text-decoration: none;
   font-family: Source Sans Pro;
+  color: white;
 }
 
 .btn {
-  background-color: rgb(53, 204, 124);
-  color: white;
-  border-radius: 0.3em;
-  border: none;
-  height: 7%;
-  width: 10%;
   clear: left;
   margin-left: 2%;
+  height: 7%;
+  width: 10%;
+  border-radius: 0.3em;
+  border: none;
+  background-color: rgb(53, 204, 124);
+  color: white;
 }
 
 .float-right {
