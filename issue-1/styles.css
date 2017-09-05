@@ -4,14 +4,45 @@ body {
   background-color: rgb(238, 238, 238);
 }
 
-.topcontainer {
+.container {
   position: absolute;
-  width: 100%;
+  left: 6%;
+  width: 88%;
   height: 50%;
+}
+
+.topcolor {
   background-color: rgb(31, 37, 50);
 }
 
-.swaylogo {
+.header-margins {
   margin-left: 10%;
-  margin-top: 2%;
+  margin-top: 3%;
+}
+
+.links {
+  color: white;
+  float: right;
+  clear: left;
+  margin-top: 4%;
+  margin-right: %;
+  margin-left: 2%;
+  font-size: 75%;
+  text-decoration: none;
+}
+
+.btn {
+  background-color: rgb(53, 204, 124);
+  color: white;
+  border-radius: 0.3em;
+  border: none;
+  height: 15%;
+  width: 10%;
+  clear: left;
+  margin-left: 2%;
+}
+
+.float-right {
+  float: right;
+  margin-right: 10%;
 }
