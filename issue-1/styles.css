@@ -1,1 +1,17 @@
 /* This is the style sheet for sway finance. */
+body {
+  margin: auto;
+  background-color: rgb(238, 238, 238);
+}
+
+.topcontainer {
+  position: absolute;
+  width: 100%;
+  height: 50%;
+  background-color: rgb(31, 37, 50);
+}
+
+.swaylogo {
+  margin-left: 10%;
+  margin-top: 2%;
+}
