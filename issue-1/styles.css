@@ -6,9 +6,8 @@ body {
 
 .container {
   position: absolute;
-  left: 6%;
-  width: 88%;
-  height: 50%;
+  height: 60%;
+  width: 100%;
 }
 
 .topcolor {
@@ -26,8 +25,9 @@ body {
   clear: left;
   margin-top: 4%;
   margin-left: 2%;
-  font-size: 75%;
+  font-size: 80%;
   text-decoration: none;
+  font-family: Source Sans Pro;
 }
 
 .btn {
@@ -35,7 +35,7 @@ body {
   color: white;
   border-radius: 0.3em;
   border: none;
-  height: 15%;
+  height: 7%;
   width: 10%;
   clear: left;
   margin-left: 2%;
