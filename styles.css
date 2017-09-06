@@ -4,6 +4,10 @@ body {
   background-color: rgb(238, 238, 238);
 }
 
+input {
+  width: 25%;
+}
+
 .container {
   position: absolute;
   height: 70%;
@@ -63,4 +67,12 @@ body {
 .description2 {
   margin-top: -20px;
   font-size: 15px;
+}
+
+.input {
+  position: relative;
+  float: left;
+  clear: left;
+  margin-left: 200px;
+  width: 50%;
 }
