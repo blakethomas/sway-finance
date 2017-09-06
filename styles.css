@@ -1,0 +1,48 @@
+/* This is the style sheet for sway finance. */
+body {
+  margin: auto;
+  background-color: rgb(238, 238, 238);
+}
+
+.container {
+  position: absolute;
+  height: 60%;
+  width: 100%;
+}
+
+.topcolor {
+  background-color: rgb(31, 37, 50);
+}
+
+.header-margins {
+  margin-left: 200px;
+  margin-top: 30px;
+}
+
+.links {
+  float: right;
+  clear: left;
+  margin-top: 50px;
+  margin-left: 10px;
+  margin-right: 20px;
+  font-size: 15px;
+  text-decoration: none;
+  font-family: Source Sans Pro;
+  color: white;
+}
+
+.btn {
+  clear: left;
+  margin-left: 10px;
+  height: 50px;
+  width: 10%;
+  border-radius: 0.3em;
+  border: none;
+  background-color: rgb(53, 204, 124);
+  color: white;
+}
+
+.float-right {
+  float: right;
+  margin-right: 150px;
+}
