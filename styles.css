@@ -64,7 +64,7 @@ input {
   position: relative;
   float: left;
   left: 15%;
-  margin-top: 200px;
+  top: 40%;
   font-family: Source Sans Pro;
   color: white;
   clear: left;
@@ -77,9 +77,10 @@ input {
 
 .input {
   position: relative;
+  top: 40%;
   float: left;
   clear: left;
-  margin-left: 15%;
+  left: 15%;
   width: 50%;
 }
 
@@ -88,7 +89,6 @@ input {
 }
 
 .img {
-  position: relative;
   right: 15%;
   top: 240px;
   float: right;
@@ -97,14 +97,8 @@ input {
 
 .play-btn {
   position: absolute;
-  bottom: 23%;
-  right: 10%;
   height: 80px;
   width: 80px;
-}
-
-.input-box {
-  margin-top: 100px;
 }
 
 .main-pic {
@@ -117,7 +111,8 @@ input {
 }
 
 .pic-box {
-  float: right;
   width: 80px;
   height: 80px;
+  margin-top: 111px;
+  margin-left: 165px;
 }
