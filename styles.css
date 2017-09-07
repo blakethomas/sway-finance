@@ -5,7 +5,7 @@ body {
 }
 
 input {
-  width: 25%;
+  width: 150px;
 }
 
 .container {
@@ -20,8 +20,12 @@ input {
 }
 
 .header-margins {
-  margin-left: 200px;
+  margin-left: 15%;
   margin-top: 30px;
+}
+
+.top-logo {
+  position: absolute;
 }
 
 .links {
@@ -43,7 +47,7 @@ input {
 }
 
 .btn {
-  width: 10%;
+  width: 150px;
   border-radius: 0.3em;
   border: none;
   background-color: rgb(53, 204, 124);
@@ -51,14 +55,15 @@ input {
 }
 
 .float-right {
+  position: relative;
   float: right;
-  margin-right: 150px;
+  right: 15%;
 }
 
 .description {
   position: relative;
   float: left;
-  margin-left: 200px;
+  left: 15%;
   margin-top: 200px;
   font-family: Source Sans Pro;
   color: white;
@@ -74,25 +79,45 @@ input {
   position: relative;
   float: left;
   clear: left;
-  margin-left: 200px;
+  margin-left: 15%;
   width: 50%;
 }
 
 .bottom-btn {
-  width: 25%;
+  width: 155px;
 }
 
 .img {
-  position: absolute;
-  right: 150px;
+  position: relative;
+  right: 15%;
   top: 240px;
   float: right;
+  margin: 0 auto;
 }
 
 .play-btn {
   position: absolute;
-  right: 315px;
-  bottom: 360px;
+  bottom: 23%;
+  right: 10%;
   height: 80px;
   width: 80px;
+}
+
+.input-box {
+  margin-top: 100px;
+}
+
+.main-pic {
+  position: absolute;
+  right: 15%;
+  height: 272px;
+  width: 408px;
+  top: 240px;
+  float: right;
+}
+
+.pic-box {
+  float: right;
+  width: 80px;
+  height: 80px;
 }
