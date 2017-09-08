@@ -19,13 +19,15 @@ input {
   background-color: rgb(31, 37, 50);
 }
 
-.header-margins {
-  margin-left: 15%;
+.header-move {
+  margin-left: 200px;
   margin-top: 30px;
 }
 
 .top-logo {
   position: absolute;
+  top: 30px;
+  left: 15%;
 }
 
 .links {
@@ -106,7 +108,7 @@ input {
   right: 15%;
   height: 272px;
   width: 408px;
-  top: 240px;
+  top: 31%;
   float: right;
 }
 
